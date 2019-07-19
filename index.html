@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>Derek Do</title>
+	<title>Derek Do's Portfolio</title>
 	<meta charset="UTF-8">
 	<meta name="description" content="Derek Do Portfolio">
 	<meta name="keywords" content="portfolio, riddle, onepage, creative, html">
@@ -25,23 +25,20 @@
 	<![endif]-->
 
 </head>
-<body>
+<body class="body-pad">
 	<!-- Page Preloder -->
 	<div id="preloder">
 		<div class="loader"></div>
 	</div>
-
+	
 	<!-- header section start -->
 	<header class="header-section">
-		<div class="container">
+		<div class="container-fluid">
 			<div class="row">
-				<div class="col-lg-4 col-md-3">
-					<div class="logo">
-						<h2 class="site-logo">Derek Do</h2>
-					</div>
+				<div class="logo">
+					<h2 class="site-logo">Derek Do</h2>
 				</div>
-				<div class="col-lg-8 col-md-9">
-					<a href="contact.html" class="site-btn header-btn">Get in touch</a>
+				<div class="home-2 container text-left text-md-right">
 					<nav class="main-menu">
 						<ul>
 							<li><a href="index.html">Home</a></li>
@@ -51,6 +48,7 @@
 						</ul>
 					</nav>
 				</div>
+				<a href="contact.html" class="site-btn header-btn">Get in touch</a>
 			</div>
 		</div>
 		<div class="nav-switch">
@@ -59,88 +57,222 @@
 	</header>
 	<!-- header section end -->
 
-	<!-- intro section start -->
-	<section class="intro-section">
-		<div class="container text-center">
-			<div class="row">
-				<div class="col-xl-10 offset-xl-1">
-					<h2 class="section-title">I’m a freelance <span>digital designer</span> and <span>photographer</span>, with +2 years of experience</h2>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!-- intro section end -->
-
 
 	<!-- portfolio section start -->
-	<section class="portfolio-section">
+	<section class="portfolio-section pt100">
 		<div class="container">
-			<ul class="portfolio-filter controls">
-				<li class="control" data-filter="all">All</li>
-				<li class="control" data-filter=".ui">Interface design</li>
-				<li class="control" data-filter=".graphic">Graphic design</li>
-				<li class="control" data-filter=".motion">Motion design</li>
-				<li class="control" data-filter=".photo">Photography</li>
-			</ul>
+			
 		</div>                       
-		<div class="container-fluid p-md-0 ">
+		<div class="container-fluid p-0">
 			<div class="row portfolios-area">
-				<div class="mix col-lg-6 col-md-6 ui">
-					<a href="img/portfolio/1.jpg" class="portfolio-item set-bg" data-setbg="img/portfolio/1.jpg">
+				<div class="col-lg-6">
+					<div class="portfolio-intro">
+						<h2 class="section-title mb-5"><span>UI designer</span>, <span>illustrator</span> and <span>web developer</span>. Performing at the crossroads of aesthetics and technology to craft compelling and meaningful ideas that endure.</h2>
+						<ul class="portfolio-filter controls">
+						<!--	<li class="control" data-filter="all">All</li>
+							<li class="control" data-filter=".ui">UI/UX</li>
+							<li class="control" data-filter=".graphic">Graphic</li>
+							<li class="control" data-filter=".illustration">Illustration</li>
+							<li class="control" data-filter=".fashion">Fashion</li>
+						-->
+						</ul>
+					</div>
+				</div>
+				<div class="first-item col-md-6 col-lg-12 mix ui p-lg-0">
+					<a href="img/portfolio/1.png" class="portfolio-item set-bg" data-setbg="img/portfolio/1.png">
+						<div class="pi-inner">
+							<h2>+ See on Behance</h2>
+						</div>			
+					</a>
+					<div class="portfolio-meta">
+						<a href="https://www.behance.net/gallery/83068417/Custom-Checkout-Process-UI-Element"><h2>Checkout Process UI Kit</h2>
+						<p>UI/UX</p>
+					</div>
+				</div>
+
+				<!--Cover Image -->
+				<div class="second-item mix col-md-6 ui">
+					<a href="img/portfolio/cover.jpeg" class="portfolio-item set-bg" data-setbg="img/portfolio/cover.jpeg">
 						<div class="pi-inner">
 							<h2>+ See Project</h2>
 						</div>						
 					</a>
+					<div class="portfolio-meta">
+						<h2>Enigma</h2>
+						<p>Illustration</p>
+					</div>
 				</div>
-				<div class="mix col-lg-6 col-md-6 graphic">
-					<a href="img/portfolio/2.jpg" class="portfolio-item set-bg " data-setbg="img/portfolio/2.jpg">
+
+				<div class="mix col-md-6 col-lg-3 graphic">
+					<a href="img/portfolio/3.jpg" class="portfolio-item pi-style2 set-bg" data-setbg="img/portfolio/2.png">
+						<div class="pi-inner">
+							<h2>+ See on Behance</h2>
+						</div>						
+					</a>
+					<div class="portfolio-meta">
+						<a href="https://www.behance.net/gallery/81368125/Worcester-Art-Museum-Branding-Project">
+							<h2>Worcester Art Museum Rebranding</h2>
+						<p>Graphic</p>
+					</div>
+				</div>
+				
+				<div class="mix col-md-6 col-lg-3 ui">
+					<a href="img/portfolio/3.jpg" class="portfolio-item pi-style2 set-bg" data-setbg="img/portfolio/3.png">
 						<div class="pi-inner">
 							<h2>+ See Project</h2>
 						</div>						
 					</a>
+					<div class="portfolio-meta">
+						<h2>Worcester Art Museum Landing Page</h2>
+						<p>UI/UX</p>
+					</div>
 				</div>
-				<div class="mix col-lg-8 col-md-6 ui">
-					<a href="img/portfolio/3.jpg" class="portfolio-item set-bg" data-setbg="img/portfolio/3.jpg">
+				
+				<div class="mix col-md-6 col-lg-3 ui">
+					<a href="img/portfolio/5.gif" class="portfolio-item pi-style2 set-bg" data-setbg="img/portfolio/4.png">
 						<div class="pi-inner">
 							<h2>+ See Project</h2>
 						</div>						
 					</a>
+					<div class="portfolio-meta">
+						<h2>Runway Fashion Web Concept</h2>
+						<p>UI/UX</p>
+					</div>
 				</div>
-				<div class="mix col-lg-4 col-md-6 graphic">
-					<a href="img/portfolio/4.jpg" class="portfolio-item set-bg" data-setbg="img/portfolio/4.jpg">
+				
+				<div class="mix col-md-6 col-lg-3 ui">
+					<a href="img/portfolio/6.jpg" class="portfolio-item pi-style2 set-bg" data-setbg="img/portfolio/5.jpeg">
 						<div class="pi-inner">
 							<h2>+ See Project</h2>
 						</div>						
 					</a>
+					<div class="portfolio-meta">
+						<h2>Not Another 404 Web UI Element</h2>
+						<p>UI/UX</p>
+					</div>
+
 				</div>
-				<div class="mix col-lg-6 col-md-6 motion">
-					<a href="img/portfolio/5.gif" class="portfolio-item set-bg" data-setbg="img/portfolio/5.gif">
+				<div class="mix col-md-6 col-lg-3 ui">
+					<a href="img/portfolio/9.jpg" class="portfolio-item pi-style2 set-bg" data-setbg="img/portfolio/6.png">
 						<div class="pi-inner">
 							<h2>+ See Project</h2>
 						</div>						
 					</a>
+					<div class="portfolio-meta">
+						<h2>Editorial Layout UI</h2>
+						<p>UI/UX</p>
+					</div>
 				</div>
-				<div class="mix col-lg-6 col-md-6 photo">
-					<a href="img/portfolio/6.jpg" class="portfolio-item set-bg" data-setbg="img/portfolio/6.jpg">
+
+				<div class="mix col-md-6 col-lg-3 ui">
+					<a href="img/portfolio/10.jpg" class="portfolio-item pi-style2 set-bg" data-setbg="img/portfolio/7.png">
 						<div class="pi-inner">
 							<h2>+ See Project</h2>
 						</div>						
 					</a>
+					<div class="portfolio-meta">
+						<h2>Minimal Login UI Element</h2>
+						<p>UI/UX</p>
+					</div>
 				</div>
-				<div class="mix col-lg-6 col-md-6 motion">
-					<a href="img/portfolio/7.gif" class="portfolio-item set-bg" data-setbg="img/portfolio/7.gif">
+
+				<div class="mix col-md-6 col-lg-3 graphic">
+					<a href="img/portfolio/7.gif" class="portfolio-item pi-style2 set-bg" data-setbg="img/portfolio/8.png">
 						<div class="pi-inner">
 							<h2>+ See Project</h2>
 						</div>						
 					</a>
+					<div class="portfolio-meta">
+						<h2>Arammu Mental Clinic Branding</h2>
+						<p>Graphic</p>
+					</div>
 				</div>
-				<div class="mix col-lg-6 col-md-6 photo">
-					<a href="img/portfolio/8.jpg" class="portfolio-item set-bg" data-setbg="img/portfolio/8.jpg">
+
+				<div class="mix col-md-6 col-lg-3 illustration">
+					<a href="img/portfolio/8.jpg" class="portfolio-item pi-style2 set-bg" data-setbg="img/portfolio/cover.jpeg">
 						<div class="pi-inner">
 							<h2>+ See Project</h2>
 						</div>						
 					</a>
+					<div class="portfolio-meta">
+						<h2>Enigma</h2>
+						<p>Illustration</p>
+					</div>
 				</div>
+					
+				<div class="mix col-md-6 col-lg-3 illustration">
+					<a href="img/portfolio/9.jpg" class="portfolio-item pi-style2 set-bg" data-setbg="img/portfolio/10.png">
+						<div class="pi-inner">
+							<h2>+ See Project</h2>
+						</div>						
+					</a>
+					<div class="portfolio-meta">
+						<h2>Trapped "n" Caged</h2>
+						<p>Illustration</p>
+					</div>
+				</div>
+
+				<div class="mix col-md-6 col-lg-3 graphic">
+					<a href="img/portfolio/10.jpg" class="portfolio-item pi-style2 set-bg" data-setbg="img/portfolio/11.jpeg">
+						<div class="pi-inner">
+							<h2>+ See Project</h2>
+						</div>						
+					</a>
+					<div class="portfolio-meta">
+						<h2>"Marblelastic" Wallpaper Pack</h2>
+						<p>Graphic</p>
+					</div>
+				</div>
+
+				<div class="mix col-md-6 col-lg-3 illustration">
+					<a href="img/portfolio/12.jpg" class="portfolio-item pi-style2 set-bg" data-setbg="img/portfolio/13.jpg">
+						<div class="pi-inner">
+							<h2>+ See Project</h2>
+						</div>						
+					</a>
+					<div class="portfolio-meta">
+						<h2>Late Bloomers</h2>
+						<p>Illustration</p>
+					</div>
+				</div>
+
+				<div class="mix col-md-6 col-lg-3 illustration">
+					<a href="img/portfolio/13.jpg" class="portfolio-item pi-style2 set-bg" data-setbg="img/portfolio/14.jpg">
+						<div class="pi-inner">
+							<h2>+ See Project</h2>
+						</div>						
+					</a>
+					<div class="portfolio-meta">
+						<h2>Delphinium Blue Mirror</h2>
+						<p>Illustration</p>
+					</div>
+				</div>
+
+				<div class="mix col-md-6 col-lg-3 Illustration">
+					<a href="img/portfolio/14.jpg" class="portfolio-item pi-style2 set-bg" data-setbg="img/portfolio/15.jpg">
+						<div class="pi-inner">
+							<h2>+ See Project</h2>
+						</div>						
+					</a>
+					<div class="portfolio-meta">
+						<h2>Mind Over Flown</h2>
+						<p>Illustration</p>
+					</div>
+				</div>
+
+				<div class="mix col-md-6 col-lg-3 illustration">
+					<a href="img/portfolio/15.jpg" class="portfolio-item pi-style2 set-bg" data-setbg="img/portfolio/16.png">
+						<div class="pi-inner">
+							<h2>+ See Project</h2>
+						</div>						
+					</a>
+					<div class="portfolio-meta">
+						<h2>Initialization</h2>
+						<p>Illustration</p>
+					</div>
+				</div>
+
+
 			</div>
 		</div>
 	</section>
@@ -148,20 +280,27 @@
 
 
 	<!-- footer section start -->
-	<footer class="footer-section text-center">
-		<div class="container">
-			<h2 class="section-title mb-5">Let’s work together</h2>
-			<a href="contact.html" class="site-btn">Get in touch</a>
-			<div class="social-links">
-				<a href="https://pinterest.com"><span class="fa fa-pinterest"></span></a>
-				<a href="https://linkedin.com/in/khanh-do"><span class="fa fa-linkedin"></span></a>
-				<a href="https://instagram.com/d3rek.tastic/"><span class="fa fa-instagram"></span></a>
-				<a href="https://facebook.com/khanh.zer0"><span class="fa fa-facebook"></span></a>
-				<a href="https://twitter.com"><span class="fa fa-twitter"></span></a>
+	<footer class="footer-section">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-md-8">
+					<h2 class="section-title mb-5">Let’s work together</h2>
+					<a href="contact.html" class="site-btn">Contact me</a>
+				</div>
+				<div class="col-md-4 text-md-right">
+					<div class="social-links">
+						<a href="https://pinterest.com"><span class="fa fa-pinterest"></span></a>
+						<a href="https://linkedin.com/in/khanh-do"><span class="fa fa-linkedin"></span></a>
+						<a href="https://instagram.com/d3rek.tastic/"><span class="fa fa-instagram"></span></a>
+						<a href="https://facebook.com/khanh.zer0"><span class="fa fa-facebook"></span></a>
+						<a href="https://twitter.com"><span class="fa fa-twitter"></span></a>
+					</div>
+				</div>
 			</div>
 		</div>
 	</footer>
 	<!-- footer section end -->
+
 
 
 	<!--====== Javascripts & Jquery ======-->
